@@ -1,0 +1,11 @@
+.titulo-acme {
+    align-items: start;
+}
+
+.nav {
+    display: flex;
+    text-align: center;
+    font-size: x-large;
+    
+}
+
