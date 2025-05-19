@@ -1,200 +1,283 @@
 .titulo-acme {
-    margin-left: 50px;
-    
+  margin-left: 50px;
 }
 
 .imagen-inicio {
-    margin: 0;
-    display: flex;
-    height: 50vh;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
+  margin: 0;
+  display: flex;
+  height: 50vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  margin-left: -8px;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
-
 .nav {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 2vh;
-    position: absolute; 
-    top: 0;
-    right: 0;
-    gap: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 2vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  gap: 10px;
 }
 
 border-left: 1px solid black;
 
 .card {
-    border: 1px solid black;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    margin: 10px;
-    align-items: center;
-    border-radius: 5px;
-    background-color: #fff;
+  border: 1px solid black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #fff;
 }
 
 .img-servicios {
-    height: 50%;
-    width: 20vw;
-    justify-content: center;
+  height: 50%;
+  width: 20vw;
+  justify-content: center;
 }
 
 .card-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    text-decoration: none;
-    padding: 15px;
-    margin: 15px 0;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
-    color: #333;
-    width: 20%;
-    
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+  width: 20%;
 }
 
 .card img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-    object-fit: cover;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  object-fit: cover;
 }
 
 .card .text {
-    text-align: center;
-    margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
 
-
 .card-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    text-decoration: none;
-    padding: 15px;
-    margin: 15px 0;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
-    color: #333;
-    width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+  width: 20%;
 }
 
 .card-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    text-decoration: none;
-    padding: 10px;
-    margin: 10px 0;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
-    color: #333;
-    width: 20%;
-
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+  width: 20%;
 }
 
-
 .container {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 10px;
-    justify-content:center;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  justify-content: center;
 }
 
 .card-4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    text-decoration: none;
-    padding: 15px;
-    margin: 15px 0;
-    background-color: #fff;
-    border-radius: 10px;
-    color: #333;
-    width: 30%;
-    margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #333;
+  width: 30%;
+  margin-top: 120px;
 }
 
 .card-5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    text-decoration: none;
-    padding: 15px;
-    margin: 15px 0;
-    background-color: #fff;
-    border-radius: 10px;
-    color: #333;
-    width: 30%;
-    margin-top: 120px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #333;
+  width: 30%;
+  margin-top: 120px;
 }
 .imagen-mision {
-    height: 50%;
-    width: 20vw;
-    justify-content: center;
+  height: 50%;
+  width: 20vw;
+  justify-content: center;
 }
 
 .imagen-vision {
-    height: 50%;
-    width: 20vw;
-    justify-content: center;
+  height: 50%;
+  width: 20vw;
+  justify-content: center;
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    
+  text-decoration: none;
+  color: black;
 }
 
 .imagen-contacto {
-    height: 300px;
-    margin: 0;
-    margin-left: 10px;
-    border: rgb(73, 70, 70) solid;
-    border-radius: 8%;
+  height: 300px;
+  margin: 0;
+  margin-left: 10px;
+  border: rgb(73, 70, 70) solid;
+  border-radius: 8%;
 }
 
-
 .card-6 {
-    display: flex;
-    flex-direction: column;
-    align-items:start;
-    justify-content:;
-    text-decoration: none;
-    padding: 15px;
-    margin: 15px 0;
-    background-color: #fff;
-    border-radius: 10px;
-    color: #333;
-    width: 30%;
-    margin-top: 120px;
-    margin-right: -50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: ;
+  text-decoration: none;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #333;
+  width: 30%;
+  margin-top: 120px;
+  margin-right: -50px;
 }
 
 .container-2 {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 70px;
-    justify-content:center;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 70px;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .container,
+  .container-2 {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .card,
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5,
+  .card-6 {
+    width: 40%;
+    margin: 10px auto;
+  }
+  .imagen-mision,
+  .imagen-vision,
+  .img-servicios {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .container,
+  .container-2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .card,
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5,
+  .card-6 {
+    width: 80%;
+    margin: 10px 0;
+  }
+  .imagen-mision,
+  .imagen-vision,
+  .img-servicios {
+    width: 80vw;
+  }
+  .imagen-contacto {
+    width: 90vw;
+    height: auto;
+    margin-left: 0;
+  }
+  .nav {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    padding: 1vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo-acme {
+    margin-left: 10px;
+    font-size: 1.2em;
+  }
+  h2 {
+    font-size: 1.1em;
+  }
+  .card,
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5,
+  .card-6 {
+    width: 98%;
+    padding: 8px;
+  }
+  .imagen-mision,
+  .imagen-vision,
+  .img-servicios {
+    width: 98vw;
+    height: auto;
+  }
+  .imagen-contacto {
+    width: 98vw;
+    height: auto;
+    margin-left: 0;
+  }
+  .nav {
+    font-size: 0.9em;
+    gap: 2px;
+  }
 }
